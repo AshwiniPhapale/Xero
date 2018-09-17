@@ -26,6 +26,8 @@ public class LoginPage extends TestBase {
 	@FindBy(xpath="//a[@class='forgot-password-advert']")
 	WebElement forgotpasswordLink;
 	
+
+	
 	//Initializing the Page Objects:
 	
 	public LoginPage() {
@@ -48,6 +50,9 @@ public class LoginPage extends TestBase {
 		password.clear();
 		password.sendKeys(pwd);
 		reportLog("Password Is entered");
+		
+		loginBtn.click();
+		reportLog("Login button is clicked");
 		
 		
 	}

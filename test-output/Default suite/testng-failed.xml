@@ -5,8 +5,13 @@
     <classes>
       <class name="com.xero.qa.testcases.LoginPageTest">
         <methods>
+          <include name="tearDown"/>
+          <include name="after"/>
+          <include name="setUp"/>
           <include name="SetUp"/>
           <include name="SignUpXero"/>
+          <include name="before"/>
+          <include name="getResult"/>
         </methods>
       </class> <!-- com.xero.qa.testcases.LoginPageTest -->
     </classes>

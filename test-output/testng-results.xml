@@ -2,54 +2,66 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-09-11T23:25:49Z" name="Xero Application Test Suite" finished-at="2018-09-11T23:26:08Z" duration-ms="19024">
+  <suite started-at="2018-09-17T18:16:00Z" name="Default suite" finished-at="2018-09-17T18:16:18Z" duration-ms="18243">
     <groups>
     </groups>
-    <test started-at="2018-09-11T23:25:49Z" name="Free CRM App Test Cases" finished-at="2018-09-11T23:26:08Z" duration-ms="19024">
+    <test started-at="2018-09-17T18:16:00Z" name="Default test" finished-at="2018-09-17T18:16:18Z" duration-ms="18243">
       <class name="com.xero.qa.testcases.LoginPageTest">
-        <test-method is-config="true" signature="before()[pri:0, instance:com.xero.qa.testcases.LoginPageTest@15ca7889]" started-at="2018-09-11T23:25:49Z" name="before" finished-at="2018-09-11T23:25:49Z" duration-ms="653" status="PASS">
+        <test-method is-config="true" signature="before()[pri:0, instance:com.xero.qa.testcases.LoginPageTest@2118cddf]" started-at="2018-09-17T18:15:59Z" name="before" finished-at="2018-09-17T18:16:00Z" duration-ms="408" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.xero.qa.testcases.LoginPageTest@15ca7889]" started-at="2018-09-11T23:25:49Z" name="setUp" finished-at="2018-09-11T23:25:49Z" duration-ms="12" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.xero.qa.testcases.LoginPageTest@2118cddf]" started-at="2018-09-17T18:16:01Z" name="setUp" finished-at="2018-09-17T18:16:01Z" duration-ms="17" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.xero.qa.testcases.LoginPageTest.SignUpXero()]]>
+                <![CDATA[public void com.xero.qa.testcases.LoginPageTest.SignUpXero(java.lang.String,java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.xero.qa.testcases.LoginPageTest@15ca7889]" started-at="2018-09-11T23:25:49Z" name="SetUp" finished-at="2018-09-11T23:26:04Z" duration-ms="14413" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.xero.qa.testcases.LoginPageTest@2118cddf]" started-at="2018-09-17T18:16:01Z" name="SetUp" finished-at="2018-09-17T18:16:13Z" duration-ms="12312" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="SignUpXero()[pri:0, instance:com.xero.qa.testcases.LoginPageTest@15ca7889]" started-at="2018-09-11T23:26:04Z" name="SignUpXero" finished-at="2018-09-11T23:26:08Z" duration-ms="4193" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SignUpXero -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xero.qa.testcases.LoginPageTest@15ca7889]" started-at="2018-09-11T23:26:08Z" name="tearDown" finished-at="2018-09-11T23:26:08Z" duration-ms="369" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.xero.qa.testcases.LoginPageTest@15ca7889]" started-at="2018-09-11T23:26:08Z" name="getResult" finished-at="2018-09-11T23:26:08Z" duration-ms="1" status="PASS">
+        <test-method signature="SignUpXero(java.lang.String, java.lang.String)[pri:0, instance:com.xero.qa.testcases.LoginPageTest@2118cddf]" started-at="2018-09-17T18:16:13Z" name="SignUpXero" data-provider="getXeroTestData" finished-at="2018-09-17T18:16:17Z" duration-ms="4519" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SignUpXero status=SUCCESS method=LoginPageTest.SignUpXero()[pri:0, instance:com.xero.qa.testcases.LoginPageTest@15ca7889] output={null}]]]>
+                <![CDATA[ashwiniphapale87@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Karnakuti~123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpXero -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xero.qa.testcases.LoginPageTest@2118cddf]" started-at="2018-09-17T18:16:18Z" name="tearDown" finished-at="2018-09-17T18:16:18Z" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.xero.qa.testcases.LoginPageTest@2118cddf]" started-at="2018-09-17T18:16:18Z" name="getResult" finished-at="2018-09-17T18:16:18Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SignUpXero status=SUCCESS method=LoginPageTest.SignUpXero(java.lang.String, java.lang.String)[pri:0, instance:com.xero.qa.testcases.LoginPageTest@2118cddf] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="after()[pri:0, instance:com.xero.qa.testcases.LoginPageTest@15ca7889]" started-at="2018-09-11T23:26:08Z" name="after" finished-at="2018-09-11T23:26:10Z" duration-ms="1251" status="PASS">
+        <test-method is-config="true" signature="after()[pri:0, instance:com.xero.qa.testcases.LoginPageTest@2118cddf]" started-at="2018-09-17T18:16:18Z" name="after" finished-at="2018-09-17T18:16:18Z" duration-ms="637" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
       </class> <!-- com.xero.qa.testcases.LoginPageTest -->
-    </test> <!-- Free CRM App Test Cases -->
-  </suite> <!-- Xero Application Test Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

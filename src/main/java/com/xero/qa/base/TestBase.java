@@ -80,7 +80,7 @@ public class TestBase {
 		
 		extent.attachReporter(reporter);
 		
-		reportLog("Starting Suite");
+		
 		
 		
 	}
