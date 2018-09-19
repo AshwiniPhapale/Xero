@@ -22,6 +22,7 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.xero.qa.util.TestUtil;
 
+// TestBase class
 public class TestBase {
 	
 	public static WebDriver driver;
