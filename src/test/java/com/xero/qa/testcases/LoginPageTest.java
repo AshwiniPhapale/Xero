@@ -38,7 +38,7 @@ public class LoginPageTest extends TestBase {
 	
 	
 	@Test(dataProvider="getXeroTestData")
-	public void SignUpXero(String username,String password) {
+	public void navigateToXero(String username,String password) {
 		
 		
 		
