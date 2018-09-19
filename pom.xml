@@ -6,6 +6,8 @@
 	<artifactId>XeroMavenProject</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
+
+
 <dependencies>
 
 
@@ -22,6 +24,7 @@
 		
 <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <!-- test comment from dev2 -->
+<!-- Test message by dev1 -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
